@@ -58,7 +58,7 @@ public class Node {
 		return false;
 	}
 	
-	private boolean isOrphan(){
+	public boolean isOrphan(){
 		return parent==null;
 	}
 	
